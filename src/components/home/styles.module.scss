@@ -1,0 +1,18 @@
+.homeBody {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+
+    .addressTable {
+        height: calc(100% - 51px);
+    }
+
+    .marginRight10 {
+        margin-right: 10px;
+    }
+}
