@@ -15,7 +15,7 @@ export interface IFooterState {
 export default class FooterComponent extends React.Component<IFooterProps, IFooterState> {
     public render() {
         return <Footer className={`${Styles.footerMain}`}>
-            Footer
+            By Bimalendu Sarkar
             </Footer>;
     }
 }
