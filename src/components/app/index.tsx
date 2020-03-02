@@ -5,7 +5,7 @@ import Home from '../home';
 import Styles from './styles.module.scss';
 import { Layout } from 'antd';
 import HeaderComponent from '../header';
-import Sider from '../sider';
+// import Sider from '../sider';
 import FooterComponent from '../footer';
 import Add from '../addEditAddress';
 
