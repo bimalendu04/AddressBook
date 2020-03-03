@@ -41,6 +41,7 @@ class AddEditFormComponent extends React.Component<IAddEditFormProps, IAddEditFo
 		this.props.form.validateFieldsAndScroll((err: any, values: any) => {
 			if (!err) {
 				if (this.props.match.params.id) {
+					values.id = this.state.id;
 					this.props.updateAddress(values);
 					this.showNotification('success', 'Address Book updated', '');
 					// this.props.form.resetFields();

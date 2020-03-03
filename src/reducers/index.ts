@@ -31,7 +31,7 @@ const rootReducer = (state: IAddress = initialState, action: IAction) => {
             // let addressToUpdate = addressBook.filter((address: IAddressModel) => address.id === action.payload.id)[0];
             actionPayload = action.payload as IAddressModel;
             let indexToUpdate = _.findIndex(payload, { id: actionPayload.id });
-            payload.splice(indexToUpdate, 1, action.payload);
+            payload.splice(indexToUpdate, 1, actionPayload);
             return Object.assign({}, state, {
                 addressBook: payload
             });
