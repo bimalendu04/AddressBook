@@ -29,6 +29,10 @@ export interface ITableDatasource extends IAddressModel {
 }
 
 class HomeComponent extends React.Component<IHomeProps, IHomeState> {
+    constructor(props: IHomeProps) {
+        super(props);
+        document.title = 'Home';
+    }
     private onEdit(id: string) {
         history.push(`/address/edit/${id}`);
     }

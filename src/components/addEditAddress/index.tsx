@@ -34,6 +34,7 @@ class AddEditFormComponent extends React.Component<IAddEditFormProps, IAddEditFo
 		this.state = {
 			id: this.props.match.params.id
 		};
+		document.title = 'Address Book';
 	}
 
 	private handleSubmit(e: React.FormEvent<HTMLFormElement>) {
