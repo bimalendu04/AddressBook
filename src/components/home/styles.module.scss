@@ -1,18 +1,36 @@
+@mixin btnStyle {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
 .homeBody {
     width: 100%;
     padding: 20px;
     height: 100%;
-
     .title {
         margin-bottom: 20px;
         font-size: 21px;
     }
-
     .addressTable {
         height: calc(100% - 51px);
     }
-
     .marginRight10 {
         margin-right: 10px;
+    }
+    .addBtn {
+        @include btnStyle;
+        margin-left: 20px;
+        display: inline-flex;
+        font-size: 20px;
+    }
+    .addBtnMobile {
+        @include btnStyle;
+        display: flex;
+        position: fixed;
+        font-size: 24px;
+        bottom: 80px;
+        right: 20px;
     }
 }
