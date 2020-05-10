@@ -201,7 +201,7 @@ class AddressFormModal extends React.Component<IAddressFormModalProps, IAddressF
 					  </Button>
 					</Form.Item>
 				</Form>
-			</div >;
+			</div >
 		</Modal>
 	}
 }
