@@ -1,7 +1,7 @@
 This is a small project done to learn implementation of Redux.
 You can open [https://addressbooktest.netlify.app/](https://addressbooktest.netlify.app/) to view it live.
 
-No database is connected yet but I will be connecting it with MongoDb in future and this will act as a [https://medium.com/@digimktg/what-is-mern-stack-9c867dbad302]MERN stack application.
+No database is connected yet but I will be connecting it with MongoDb in future and this will act as a [https://medium.com/@digimktg/what-is-mern-stack-9c867dbad302](MERN) stack application.
 
 ## Available Scripts
 
